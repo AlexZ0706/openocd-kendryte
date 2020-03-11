@@ -156,6 +156,7 @@ DRIVERFILES += %D%/cmsis_dap_usb_bulk.c
 if !CMSIS_DAP_HID
 DRIVERFILES += %D%/cmsis_dap.c
 endif
+endif
 if IMX_GPIO
 DRIVERFILES += %D%/imx_gpio.c
 endif
